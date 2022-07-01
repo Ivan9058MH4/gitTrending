@@ -1,0 +1,70 @@
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+body div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.header {
+    background: #e9e7e7;
+    padding: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    width: 1400px;
+}
+
+
+
+.content {
+    height: max-content;
+    width: 1000px;
+    margin: 10% auto;
+    background-color: #e9e7e7;
+}
+
+
+
+.footer {
+    background: #000;
+    clear: both;
+    color: #ccc;
+
+}
+
+.Developers {
+    float: left;
+    width: 100px;
+    height: 30px;
+    background-color: #e5e7f1;
+    border: 4px double black;
+    padding: 3px;
+    text-align: center;
+    font-family: sans-serif;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.Repositiries {
+    float: left;
+    width: 100px;
+    height: 30px;
+    background-color: #3b60d9;
+    border: 4px double black;
+    padding: 3px;
+    text-align: center;
+    font-family: sans-serif;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.container {
+    overflow:hidden;
+
+}
+
