@@ -81,7 +81,7 @@ body div {
 }
 
 .table2 {
-    height: max-content;
+    height: 200px;
     width: 1000px;
     margin-left: 183px;
     margin-top: -138px;
@@ -138,11 +138,20 @@ body div {
     height: 20px;
     font-family: sans-serif;
     font-size: 12px;
+
 }
 
 .circle:before{
     content: '\1F534';
+
 }
+
+.star:before{
+
+    content: '\2B50';
+
+}
+
 
 
 
