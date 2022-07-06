@@ -98,59 +98,77 @@ body div {
     height: 42px;
     font-family: sans-serif;
     font-size: 16px;
-
 }
-
-.articlename:link {
-    color: #497DDD;
-    border-bottom: 1px dashed;
-}
-.articlename:visited {
-    color: #EF7D55;
-}
-.articlename:hover {
-    color: #154088;
-    border-bottom: 2px solid;
-}
-.articlename:active {
-    color: #497DDD;
-    border-bottom: 1px dashed;
-} /*все что выше - заголовок-ссылка на статью */
 
 .book:before {
     content: '\1F4D8';
-}
-
-.subtitle {
-    width: max-content;
-    height: 30px;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .book2:after{
     content: '\1F4D6';
+    font-family: sans-serif;
+    font-size: 13px;
 }
 /*заголовок 2*/
 
-.js{
-    width: max-content;
-    height: 20px;
-    font-family: sans-serif;
-    font-size: 12px;
-
-}
 
 .circle:before{
+    width: max-content;
+    margin-left: -12px;
     content: '\1F534';
-
+    font-family: sans-serif;
+    font-size: 13px;
 }
 
 .star:before{
-
+    width: max-content;
+    font-family: sans-serif;
+    font-size: 13px;
     content: '\2B50';
+}
+/* переделываю таблицу 2 флексами ниже */
+.container{
+    display: flex;
+    /*min-height: 200px; */
+    max-height: max-content;
+    width: 1000px;
+    margin-left: 183px;
+    margin-top: -138px;
+    border: 1px solid #b9d4d4;
+    background-color: white;
+    font-family: sans-serif;
+    flex-direction: column;
+
 
 }
+
+.litelements{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.branch:before{
+    content: '\1F6C0';
+    font-size: 13px;
+
+}
+
+.round{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 100px; /* Радиус скругления */
+    border: 1px; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+
+}
+
+
+
 
 
 
