@@ -23,37 +23,40 @@ body div {
     margin-top: 100px;
     width: 80%;
     height: max-content;
-    background-color: aqua;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
 
 
 }
 
 .btn-table{
-    width: 99%;
+    width: 100%;
     height: max-content;
-    margin: 10px auto;
-    background-color: red;
+    border: 1px solid #b9d4d4;
+    padding: 13px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #e9e7e7 ;
+    margin: 0 auto;
     display: flex;
 
 }
 
 .btn-block{
-    width: 25%;
+    width: 20%;
     height: 30px;
     background-color: antiquewhite;
     display: flex;
 }
 .btn-active{
     width: 50%;
-    border: 1px solid black;
+    border: 1px solid #b9d4d4;
     border-top-left-radius:8px;
     border-bottom-left-radius:8px;
-    background-color: blue;
+    background-color: #2f64bf;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,12 +64,12 @@ body div {
 
 .btn{
     width: 50%;
-    border: 1px solid black;
+    border: 1px solid #b9d4d4;
     border-top-right-radius:8px ;
     border-bottom-right-radius:8px ;
     background-color: white;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,8 +77,7 @@ body div {
 
 .select-block{
     width: 75%;
-    height: 30px;
-    background-color: #9562b5;
+    height: max-content;
     display: flex;
     justify-content: flex-end;
     align-items: center ;
@@ -84,7 +86,6 @@ body div {
 .select-any-lng{
     width: 23%;
     height: max-content;
-    background-color: chartreuse;
     display: flex;
     justify-content: flex-end;
 
@@ -93,7 +94,6 @@ body div {
 .select-lng{
     width: 15%;
     height: max-content;
-    background-color: #b9d4d4;
     display: flex;
     justify-content: flex-end;
 
@@ -103,7 +103,6 @@ body div {
 .select-date{
     width: 20%;
     height: max-content;
-    background-color: burlywood;
     display: flex;
     justify-content: flex-end;
 
@@ -131,20 +130,234 @@ body div {
 }
 
 .content-table{
-    width: 50%;
+    width: 100%;
     height: max-content;
-    background-color: chartreuse;
+    border: 1px solid #b9d4d4;
     display: flex;
-    justify-items: center;
-    align-items: flex-end;
+    margin: 0 auto;
+}
 
+.content-block{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center ;
+    margin: 20px auto;
+}
+
+.article-block{
+    width: 100%;
+    height: 100px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 
 }
 
+.header{
+    width: 50%;
+    height: max-content;
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
+}
 
+.header-symbol{
 
+}
 
+.repository-name{
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 5px;
+}
 
+.article-name{
+    width: 50%;
+    height: max-content;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.article-symbol{
+
+}
+
+.article-title{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.auxiliary-block{
+    width: 50%;
+    height: max-content;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.prgrm-language{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.language-symbol{
+    width: max-content;
+    height: max-content;
+    font-size: 15px;
+}
+
+.language{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.star-amount{
+    width: max-content;
+    height: max-content;
+    margin-left: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.star-symbol{
+    width: max-content;
+    height: max-content;
+    font-size: 15px;
+}
+
+.amount{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.repost-amount{
+    width: max-content;
+    height: max-content;
+    margin-left: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.repost-symbol{
+    width: max-content;
+    height: max-content;
+    font-size: 15px;
+}
+
+.creater-block{
+    width: max-content;
+    height: max-content;
+    margin-left: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.built-by{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.icon{
+    margin-left: 2px;
+
+}
+.round{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 1px;
+    box-shadow: 0 0 7px #666;
+}
+
+.like-block{
+    width: 30%;
+    height:100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.btn-like{
+    width: 40%;
+    height: 25px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.btn-star{
+    font-size: 20px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+
+}
+
+.btn-title{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.like-chapter{
+    width: 40%;
+    margin-left: 25px;
+    margin-top: 4px;
+
+}
+
+.btn-like-left{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.today-amount-star{
+    width: 100%;
+    height: 15px;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.star-symbol{
+    width: 5%;
+
+}
+
+.stars-today{
+    width: 80%;
+
+}
+
+.today-amount{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.stars-today{
+    font-family: sans-serif;
+    font-size: 15px;
+}
 
 
